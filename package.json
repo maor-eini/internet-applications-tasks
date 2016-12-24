@@ -1,0 +1,23 @@
+{
+  "name": "internet-applications-tasks",
+  "version": "1.0.0",
+  "description": "tasks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maor-eini/internet-applications-tasks.git"
+  },
+  "author": "Maor&Sapir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maor-eini/internet-applications-tasks/issues"
+  },
+  "homepage": "https://github.com/maor-eini/internet-applications-tasks#readme",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.0"
+  }
+}
