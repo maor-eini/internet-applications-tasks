@@ -5,11 +5,11 @@
   <script type="text/javascript">
     $(document).ready(function(){
       $("button#btn_load_templateA").click(function(){
-        $( "#result" ).load( "./templateA.ejs" );
+        $( "#result" ).load( "./templateA.html" );
       });
 
       $("button#btn_load_templateB").click(function(){
-        $( "#result" ).load( "./templateB.ejs" );
+        $( "#result" ).load( "./templateB.html" );
       });
     
       setInterval(function() {
@@ -18,6 +18,10 @@
           $(this).text(newText).fadeIn(500);
           });
       }, 1 * 1000);
+
+        <!--<% templates.forEach(function(template) { %>-->
+        <!--<script id="<%= template %>" src="<%= template %>.html" type="text/javascript"></script>-->
+        <!--<% }); %>-->
 
       $("button#btn_modify_template").click(function(){
         $( "#line1" ).html("this line belongs to the template. MODIFIED at "+Date());
